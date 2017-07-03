@@ -31,6 +31,7 @@ public class FirstActivity extends Activity {
     protected void onDestroy() {
         super.onDestroy();
         //BandFitDataBase.getInstance().exit();
+        System.out.println("test!");
     }
 
     @Override
